@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 16em;
+    text-align: center;
+    background-image: url('images/jinx.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: text;
+    /* -webkit-background-clip: text; */
+    color: transparent;
+    /* -webkit-text-fill-color: transparent; */
+}
+
+h1:hover{
+    background-image: url('images/jinx2.png');
+    cursor: default;
+}

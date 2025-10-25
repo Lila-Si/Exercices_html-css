@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* General */
+html{
+    background-image: url('fond/fond1.jpg');
+    background-repeat: no-repeat;
+    background-size: 110% 120%;
+}
+
+body{
+    font-family: 'Raleway';
+}
+
+h1{
+    font-weight: 800;
+    font-size: 2.7em;
+    padding: 1em;
+    margin-left: 5.5em;
+}
+
+p{
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+a{
+    text-decoration-thickness: 0.2em;
+    text-underline-offset: 0.2em;
+}
+
+div{
+    margin: auto;
+    margin-top: 5em;
+    width: 50em;
+    height: 40em;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.text_one{
+    margin-left: 18.5em;
+    margin-top: -2.5em;
+}
+
+.formulaire{
+    padding: 1em;
+    margin-top: 3em;
+}
+
+input::placeholder{
+    color: #5C5B5B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+    margin: 1em;
+    margin-left: 5em;
+    padding: 1em;
+    border: 0.5px solid grey;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.2) 0px 18px 36px -18px inset;
+}
+
+.form_submit{
+    margin-top: 4em;
+    margin-left: 12em;
+    cursor: pointer;
+    width: 10em;
+    border: none;
+    border-radius: 20px;
+    background-color: #B7A4ED;
+    color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: 0.15em;
+}
+
+.form_submit:hover{
+    background-color: #9477E4;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+/* Specifics Page Inscription */
+.form_nameuser{
+    width: 150px;
+}
+
+.form_email{
+    width: 200px;
+    margin-bottom: 3.3em;
+}
+
+.form_password{
+
+}
+
+.form_valid_password{
+    margin-left: -0.1em;
+}
+
+.text_two{
+    padding: 1em;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+
+
+
+/* Specifics Page Connection */
+.input_connec{
+    width: 200px;
+    margin-left: 25em;
+}
+
+.text_password_forgotten{
+    margin-bottom: -0.1em;
+}
+
+.text_password_forgotten a{
+    font-size: 0.6em;
+    text-decoration: none;
+    margin-left: 31.5em;
+}
+
+.submit_connect{
+    margin-left: 29.5em;
+}
+
+.text_two_connec{
+    padding: 1em;
+    margin-left: 2em;
+    margin-top: 5em;
+}

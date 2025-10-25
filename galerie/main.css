@@ -1,0 +1,54 @@
+h1{
+    font-family: fantasy;
+    padding: 2em;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 0.2em;
+    text-underline-offset: 0.4em;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+figure {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+figure figcaption {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    right: 5%;
+}
+
+figure p {
+    opacity: 0;
+}
+
+figure:hover figcaption p {
+    -webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+    opacity: 0.9;
+}
+
+figure img{
+    width: 37em;
+    height: 30em;
+    object-fit: cover;
+    padding: 1em;
+    opacity: 1;
+}
+
+figure:hover img{
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+    opacity: .4;
+}
